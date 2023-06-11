@@ -36,24 +36,43 @@ Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on diff
  1. click on STM 32 CUBE IDE, the following screen will appear 
  
  2. click on FILE, click on new stm 32 project 
- 
+ ![2](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/b7b6fca1-f798-499d-95bf-b4f9efaaa26c)
+![3](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/27c7272f-5f86-4a49-ae84-badaa74a4443)
+
+
  3. select the target to be programmed  as shown below and click on next 
+![4](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/7da86376-a312-4c5d-9ccc-aa862dcde0f2)
+![5](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/8acc2dde-8de4-4249-a7be-aec363d2cfc0)
 
 4.select the program name 
 
 5. corresponding ioc file will be generated automatically 
+![6](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/c3e657c8-a54a-47d6-b69e-463c2454277f)
 
 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
+![7](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/e6e034ab-e130-4b6d-a8db-100f4f152d96)
+![8](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/cceb88e3-900c-46cd-95ea-8e3ac6483cb2)
+
 
 7.click on cntrl+S , automaticall C program will be generated 
 
-8. edit the program and as per required 
+![9](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/47d6bffc-4e1d-42fc-8256-8461400d0b33)
+
+![10](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/3a44e291-a767-4de0-ba90-c4ae5f7afed4)
+
+8. edit the program and per required
+![11](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/cbfc2e92-eaf2-4f48-a85e-44a105a210ab)
+
 
 9. Select EXTI pin configuration and clock configuration 
 
+![12](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/09f0fec6-f87d-4ea0-9200-8ac51a588026)
+
 10. once the project is bulild 
+![13](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/d9782717-0281-47cb-9356-af5c779df1cf)
 
 11. click on debug option 
+![14](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/5435a8f8-397e-4c7c-a14b-f59e58d8d5b3)
 
 12.  Creating Proteus project and running the simulation
 We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
@@ -61,12 +80,16 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 14. After creation of the circuit as per requirement as shown below 
 
+![15](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/ede9b0cb-71dd-4b39-be19-5f9e5594e08f)
+
+
 15. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 16. click on debug and simulate using simulation as shown below 
 
 
+![16](https://github.com/vidhyadharan-03/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/114286357/8af7f652-bdd7-4c5c-a1a8-a7d54cdde2ef)
 
 
   
